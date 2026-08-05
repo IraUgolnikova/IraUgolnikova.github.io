@@ -11,28 +11,92 @@
             margin: 0;
             padding: 40px 20px;
             color: #1f1f1f;
-            line-height: 1.5;
+            line-height: 1.6;
         }
         .container {
             max-width: 900px;
             margin: 0 auto;
             background: white;
             border-radius: 24px;
-            padding: 40px;
+            padding: 40px 50px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.05);
         }
-        h1 { font-size: 28px; color: #0a2f44; margin-bottom: 20px; }
-        h2 { font-size: 22px; margin-top: 30px; margin-bottom: 16px; }
-        p { margin-bottom: 16px; }
-        .back-link { display: inline-block; margin-top: 30px; color: #0a2f44; }
+        h1 {
+            font-size: 28px;
+            color: #0a2f44;
+            margin-top: 0;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #e0e7ef;
+            padding-bottom: 15px;
+        }
+        .subhead {
+            color: #4a5568;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 20px;
+            color: #0a2f44;
+            margin-top: 30px;
+            margin-bottom: 16px;
+            border-left: 4px solid #3b82f6;
+            padding-left: 12px;
+        }
+        p {
+            margin-bottom: 14px;
+            color: #2d3748;
+        }
+        ul {
+            margin: 10px 0 20px 20px;
+            padding-left: 10px;
+        }
+        ul li {
+            margin-bottom: 8px;
+            color: #2d3748;
+        }
+        .signature-block {
+            border: 1px solid #d0d7de;
+            padding: 18px 22px;
+            background: #f6f8fa;
+            margin-top: 40px;
+            border-radius: 12px;
+            font-family: monospace;
+            font-size: 14px;
+            color: #0a2f44;
+        }
+        .signature-block p {
+            margin: 4px 0;
+            color: #0a2f44;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            color: #0a2f44;
+            font-weight: 600;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: 0.2s;
+        }
+        .back-link:hover {
+            border-bottom-color: #0a2f44;
+        }
+        .footer-note {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #718096;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 20px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
+
 <div class="container">
     <h1>Согласие на обработку персональных данных</h1>
-    <p><strong>Дата: 01.03.2026 г.</strong></p>
+    <div class="subhead"><strong>Дата:</strong> 01.03.2026</div>
 
-    <p>Настоящим, в соответствии с Федеральным законом от 27.07.2006 № 152-ФЗ «О персональных данных», я даю согласие <strong>Индивидуальному предпринимателю Угольниковой Ирине Владимировне</strong> (ИНН 432902927943, ОГРНИП 325527500065051, адрес: 603063, Нижегородская обл., Володарский р-н, рп. Ильиногорск, ул. Угарова, д. 20, кв. 22) на обработку моих персональных данных на следующих условиях.</p>
+    <p>Настоящим, в соответствии с Федеральным законом от 27.07.2006 № 152-ФЗ «О персональных данных», я даю согласие <strong>Индивидуальному предпринимателю Угольниковой Ирине Владимировне</strong> (ИНН 432902927943, ОГРНИП 325527500065051, адрес: 606058, Нижегородская обл., Володарский р-н, рп. Ильиногорск, ул. Угарова, д. 20, кв. 22) на обработку моих персональных данных на следующих условиях.</p>
 
     <h2>1. Перечень персональных данных</h2>
     <ul>
@@ -42,9 +106,11 @@
     </ul>
 
     <h2>2. Цели обработки</h2>
-    <p>2.1. Оказание образовательных услуг (в том числе предоставление доступа к материалам, проведение занятий, проверка заданий, выдача сертификатов).</p>
-    <p>2.2. Установление обратной связи, включая направление уведомлений.</p>
-    <p>2.3. Направление информационных и рекламных материалов (отдельная цель).</p>
+    <ul>
+        <li>Оказание образовательных услуг (доступ к материалам, проведение занятий, проверка заданий, выдача сертификатов);</li>
+        <li>Установление обратной связи, включая направление уведомлений;</li>
+        <li>Направление информационных и рекламных материалов (отдельная цель).</li>
+    </ul>
 
     <h2>3. Срок действия согласия</h2>
     <p>Настоящее согласие действует с момента его предоставления до момента его отзыва.</p>
