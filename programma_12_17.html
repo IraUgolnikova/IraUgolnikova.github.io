@@ -33,6 +33,13 @@
         }
         .center { text-align: center; }
         .bold { font-weight: 700; }
+        @media (max-width: 600px) {
+            body { margin: 0; padding: 12px; }
+            h1 { font-size: 19px; overflow-wrap: anywhere; }
+            table { display: block; overflow-x: auto; font-size: 14px; }
+            th, td { padding: 6px; }
+            .signature-block { word-break: break-all; }
+        }
     </style>
 </head>
 <body>
